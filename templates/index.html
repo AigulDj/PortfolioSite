@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+{% block head %}{{super()}}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="box-01 boxes">
+        <img class="img01" src="static/assets/img/img1-2.png" alt="">
+        <div class="txt-box01">
+            <h2 class="name txt01">Aigul Djon</h2>
+            <p class="pydev txt01">Python Developer</p>
+            <h1 class="portfolio txt01">PORTFOLIO</h1>
+        </div>
+    </div>
+
+    <div class="box-02 boxes">
+        <img class="img02" src="static/assets/img/img1-2.png" alt="">
+        <p class="box-num">02</p>
+        <h3 class="title02 titles">A LITTLE<br>ABOUT ME</h3>
+        <h4 class="txt">
+            I am a self-taught Python programmer currently based in London, UK.
+            My previous experience is in project management and entrepreneurship.
+            I started as a developer student in 2020, studying on virtual platforms
+            such as Coursera, Udemy and also consuming a lot of content on YouTube.
+            Currently, I'm deepening in Python and working on small personal projects
+            to improve my coding skills and gain more confidence in programming.
+        </h4>
+        <h5 class="belief">&#10036; Learn Every Day &#10036; Don't Take Yourself Too Seriously &#10036;
+            Care What You Do &#10036;
+        </h5>
+
+    </div>
+
+    <div class="box-03 boxes">
+        <p class="box-num">03</p>
+        <h3 class="title03 titles">SKILLS</h3>
+        <img class="img03" src="static/assets/img/img3.png" alt="Img3">
+        <ul class="skills1">
+            <li>Python 3</li>
+            <li>Django</li>
+            <li>Flask</li>
+            <li>SQLAlchemy</li>
+            <li>SQL</li>
+        </ul>
+        <ul class="skills2">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+            <li>Github</li>
+        </ul>
+    </div>
+
+    <div class="box-04 boxes">
+        <p class="box-num">04</p>
+        <H3 class="title04 titles">MY PROJECTS</H3>
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                        <div class="card side-card">
+                            <div class="image-wrapper">
+                                <a href="#"><img src="static/assets/img/PDF.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">PDF to Audiobook</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.<br><br>
+                                    <b>Stack:</b> Python, PyPDF2, GUI Tkinter, Pygame, pyttsx3
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <a href="#"> <img src="static/assets/img/ImgWatermark.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Image Watermark</h5>
+                                <p class="card-text">
+                                    Personal Desktop to upload images and add a watermark.<br><br>
+                                    <b>Stack:</b> Python, PIL, GUI Tkinter, sys
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card side-card">
+                            <div class="image-wrapper">
+                                <a href="#"><img src="static/assets/img/Breakout.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Breakout Game</h5>
+                                <p class="card-text">
+                                    Simple game similar to Pong where you use a ball and paddle to break down a wall.
+                                    For each level passed, points are recorded, and the speed of the ball increases.<br><br>
+                                    <b>Stack:</b> Python, Turtle Graphics Module
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="cards-wrapper">
+                        <div class="card side-card">
+                            <div class="image-wrapper">
+                                <a href="https://aiguldj.eu.pythonanywhere.com/" target="_blank"><img src="static/assets/img/Coffee.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Coffee shop App</h5>
+                                <p class="card-text">
+                                    The app for small craft coffee shops, where owners can create and add their unique
+                                    recipes to the menu and control an inventory.<br><br>
+                                    <b>Stack:</b> Django, Python, SQLite, REST API, HTML5, CSS3 (Bootstrap)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-wrapper">
+                                <a href="#"> <img src="static/assets/img/MySite.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My Personal Site</h5>
+                                <p class="card-text">
+                                    The website to showcase my skills and the things I've engineered. I deployed the
+                                    site on Heroku. <br><br>
+                                    <b>Stack:</b> Python, Flask, SQLAlchemy, WTFforms, smtplib, HTML5, CSS3, Bootstrap,
+                                    Heroku
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card side-card">
+                            <div class="image-wrapper">
+                                <a href="#"><img src="static/assets/img/WorkFP.jpg" alt="..."></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Work Friendly Places</h5>
+                                <p class="card-text">
+                                    The website that lists cafes with WiFi and power for remote working.
+                                    Users can add places themselves, passed data will be saved in the database.<br><br>
+                                    <b>Stack:</b> Python, SQLAlchemy, REST API, Flask, Ninja, HTML5, CSS3
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="box-05 boxes">
+        <p class="box-num">05</p>
+        <h3 class="title05 titles"><p class="aya">Aiul Djon</p>WANT TO GET IN TOUCH?</h3>
+        <ul class="contacts">
+            <p><a href="https://github.com/AigulDj" target="_blank">GitHub</a></p>
+            <p><a href="https://github.com/AigulDj" target="_blank">Linkdin</a></p>
+            <p>aigul.djon@gmail.com</p>
+        </ul>
+        <img class="img05" src="static/assets/img/Aigul.jpg" alt="Photo 5">
+    </div>
+</div>
+{% endblock %}
+
+<script src="static/js/script.js"></script>
