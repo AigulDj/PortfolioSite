@@ -32,6 +32,7 @@ class Owner(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(30))
 
+
 admin.add_view(ModelView(Owner, db.session))
 
 db.create_all()

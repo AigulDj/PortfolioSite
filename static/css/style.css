@@ -25,6 +25,9 @@ a {
     color: inherit;
     text-decoration: none;
 }
+span {
+
+}
 img {
     z-index: -1;
     max-width: 18em;
@@ -109,14 +112,15 @@ img {
 }
 
 /* BOX-04 */
-.carousel {
+.card-wrapper {
     grid-area: 4 / 2 / 13 / 20;
     margin-top: 1em;
+    display: flex;
 }
-.carousel-item {
+/*.carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
     padding-top: 10px;
-}
+}*/
 @media screen and (min-width: 567px) {
     .cards-wrapper {
         display: flex;
@@ -135,12 +139,12 @@ img {
         display: none;
     }
 }
-.carousel-control-next {
+/*.carousel-control-next {
     right: -75px;
 }
 .carousel-control-prev {
     left: -75px;
-}
+}*/
 .side-card {
     bottom: 18px;
 }
@@ -157,11 +161,18 @@ img {
     font-family: Arsenica;
     font-size: 18px;
 }
-.card-text:last-child {
-    font-family: TTCommons;
+.card-text {
     line-height: 15px;
     font-size: 12px;
     text-align: justify;
+}
+.btn {
+    display: unset;
+}
+.btn:hover {
+    color: black;
+    background-color: white;
+    border-color:black;
 }
 /* BOX-05 */
 .aya {
