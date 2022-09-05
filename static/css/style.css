@@ -112,9 +112,13 @@ img {
 }
 
 /* BOX-04 */
+.link-info {
+    grid-area: 3 / 15 / 3 / span 4;
+    padding-top: 1rem;
+}
 .card-wrapper {
     grid-area: 4 / 2 / 13 / 20;
-    margin-top: 1em;
+    padding-top: 1em;
     display: flex;
 }
 /*.carousel-item {
@@ -139,12 +143,9 @@ img {
         display: none;
     }
 }
-/*.carousel-control-next {
-    right: -75px;
+.card-body {
+    text-align: center;
 }
-.carousel-control-prev {
-    left: -75px;
-}*/
 .side-card {
     bottom: 18px;
 }
@@ -168,6 +169,7 @@ img {
 }
 .btn {
     display: unset;
+    padding: 0.2rem 1rem;
 }
 .btn:hover {
     color: black;
@@ -197,4 +199,9 @@ img {
 }
 footer {
     text-align: center;
+}
+
+/*****PROJECTS.HTML*****/
+.projects-box {
+    display: grid;
 }

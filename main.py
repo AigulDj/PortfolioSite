@@ -1,7 +1,7 @@
 import datetime
 
 import flask
-from flask import Flask, redirect, render_template
+from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 from flask_admin import Admin
@@ -46,9 +46,9 @@ def home():
     return render_template("index.html", year=year)
 
 
-@app.route("/admin")
-def admin():
-    return render_template("admin.html")
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
 
 
 if __name__ == "__main__":
