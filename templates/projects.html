@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block head %}{{super()}}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <H3 class="title04 titles">MY PROJECTS</H3>
+    <div class="projects-box">
+        <div class="cards-wrapper">
+            <div class="card side-card">
+                <div class="image-wrapper">
+                    <a href="https://aiguldj.eu.pythonanywhere.com/" target="_blank"><img
+                            src="static/assets/img/Coffee.jpg" alt="..."></a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Coffee shop App</h5>
+                    <p class="card-text">
+                        The app for small craft coffee shops, where owners can create and add their unique
+                        recipes to the menu and control an inventory.<br><br>
+                        <b>Stack:</b> Django, Python, SQLite, REST API, HTML5, CSS3 (Bootstrap)
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-wrapper">
+                    <a href="#"> <img src="static/assets/img/MySite.jpg" alt="..."></a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">My Personal Site</h5>
+                    <p class="card-text">
+                        The website to showcase my skills and the things I've engineered. I deployed the
+                        site on Heroku. <br><br>
+                        <b>Stack:</b> Python, Flask, SQLAlchemy, WTFforms, smtplib, HTML5, CSS3, Bootstrap,
+                        Heroku
+                    </p>
+                </div>
+            </div>
+            <div class="card side-card">
+                <div class="image-wrapper">
+                    <a href="#"><img src="static/assets/img/WorkFP.jpg" alt="..."></a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Work Friendly Places</h5>
+                    <p class="card-text">
+                        The website that lists cafes with WiFi and power for remote working.
+                        Users can add places themselves, passed data will be saved in the database.<br><br>
+                        <b>Stack:</b> Python, SQLAlchemy, REST API, Flask, Ninja, HTML5, CSS3
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
