@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c2cbb0e-b198-4809-9132-801f42c79016" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/PortfolioSite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/Aigul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/Breakout.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/Coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/ImgWatermark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/MySite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/PDF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/WorkFP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/img1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/my-skills-col.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/others.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/Arsenica_Trial_Regular_400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/TTCommons-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/TTCommons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/carusel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DFv6YHXCBSD9gd6gf0LCxp0ajd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/B52/PycharmProjects/PortfolioSite2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c2cbb0e-b198-4809-9132-801f42c79016" name="Default Changelist" comment="" />
+      <created>1660307472091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660307472091</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
