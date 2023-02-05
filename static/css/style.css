@@ -52,7 +52,7 @@ img {
 .boxes:hover {
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px;
+    box-shadow: 5px 10px 50px 10px;
     margin-bottom: 2rem;
 }
 .titles {
