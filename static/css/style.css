@@ -135,6 +135,12 @@ img {
         display: none;
     }
 }
+.card-body {
+    text-align: center;
+}
+.card-body-txt {
+    margin-bottom: 1em;
+}
 .carousel-control-next {
     right: -75px;
 }
@@ -186,4 +192,17 @@ img {
 }
 footer {
     text-align: center;
+}
+.btn {
+    display: unset;
+    padding: 0.2rem 1rem;
+    margin: 0.5em;
+    color: #000000;
+    background-color:  #ffffff;
+    border-color: #111111;
+}
+.btn-dark:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #00bbc9;
 }
